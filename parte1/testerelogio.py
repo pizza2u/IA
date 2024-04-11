@@ -2,7 +2,7 @@ import cv2
 
 classificadorRelogio = cv2.CascadeClassifier('cascades\\relogios.xml') # utiliza um haarcascade treinado para detectar relógios
 
-imagem = cv2.imread('outros\\relogios1.jpg')  # 1.07 - atente-se para o caminho e extensão da imagem
+imagem = cv2.imread('outros\\relogios2.jpg')  # 1.07 - atente-se para o caminho e extensão da imagem
 #imagem = cv2.imread('outros\\relogios2.jpg') # 1.068; 6
 #imagem = cv2.imread('outros\\relogios3.jpg') # 1.068
 #imagem = cv2.imread('outros\\relogios4.jpg') # 1.05

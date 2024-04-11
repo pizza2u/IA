@@ -2,7 +2,7 @@ import cv2
 
 classificadorGato = cv2.CascadeClassifier('cascades\\gatos.xml') # utiliza um haarcascade treinado para detectar gatos
 
-imagem = cv2.imread('outros\\gatos1.jpg')  # 1.03; #10 - atente-se para o caminho e extensão da imagem
+imagem = cv2.imread('outros\\gatos4.jpg')  # 1.03; #10 - atente-se para o caminho e extensão da imagem
 #imagem = cv2.imread('outros\\gatos2.jpg') # 1.2; # 2
 #imagem = cv2.imread('outros\\gatos3.jpg') #1.02; 9
 #imagem = cv2.imread('outros\\gatos4.jpg') # 1.08; #10

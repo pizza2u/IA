@@ -2,7 +2,7 @@ import cv2
 
 classificadorCarro = cv2.CascadeClassifier('cascades\\carros.xml') # utiliza um haarcascade treinado para detectar carros
 
-imagem = cv2.imread('outros\\carros1.jpg') # 1.01; # 9; #70,70 - atente-se para o caminho e extensão da imagem
+imagem = cv2.imread('outros\\carros2.jpg') # 1.01; # 9; #70,70 - atente-se para o caminho e extensão da imagem
 #imagem = cv2.imread('outros\\carros2.jpg') # 1.053; #9
 #imagem = cv2.imread('outros\\carros3.jpg') # 1.02; # 8
 #imagem = cv2.imread('outros\\carros4.jpg') # 1.01; # 8
